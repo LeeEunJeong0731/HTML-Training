@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    #root{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    #root>div:nth-child(1){
+      width: 70vw;
+      height: 60vh;
+      background-color: #d9d9d9;
+    }
+    #root>div:nth-child(2){
+      position: relative;
+      left: -22vw;
+    }
+    #root>div:nth-child(2)>p:nth-child(1){
+      font-size: 9vw;
+      font-weight: 900px;
+      color: #333333;
+    }
+    #root>div:nth-child(2)>p:nth-child(2){
+      font-size: 4vw;
+    }
+    #root>div:nth-child(2)>p:nth-child(3){
+      font-size: 5vw;
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <div></div>
+    <div>
+        <p>HTML</p>
+        <p>IS</p>
+        <p>EVERYTHING</p>
+    </div>
+  </div>
+</body>
+</html>
